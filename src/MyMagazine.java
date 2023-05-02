@@ -8,6 +8,6 @@ public class MyMagazine extends Magazine
 
     @Override
     public void getDetails() {
-
+        System.out.println(title + " " + getName()+  " " + getAuthor() + " " + getPrice());
     }
 }
